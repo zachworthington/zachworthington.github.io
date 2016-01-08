@@ -1,7 +1,10 @@
 body{
-	background-color:gray;
+	
+	background-image: url(http://mediad.publicbroadcasting.net/p/wabe/files/201310/Healthcare.jpg);
+	background-size: 25%;
 }
 h1, p{
 	color:Black;
 	font-family: font-family: 'Neuton', serif; 
+	text-align: center;
 }
