@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Neuton);
 body{
 	/*background-color:#5CB8E8;*/
-	background-image: url("images/mic.jpg");
+	background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=10000&soubor=1-12433511551KPg.jpg");
 	background-size: cover;
 	background-position: center;
+	back
 	background-repeat: no-repeat;
 	font-family: 'Neuton', serif;
 	text-align: center;
@@ -11,6 +12,8 @@ body{
 }
 #top{
 	border: dashed;
+	background-color: #C29CAE;
+	opacity: .4;
 }
 h1{
 	text-transform: uppercase;
@@ -18,11 +21,9 @@ h1{
 	font-weight:900;
 }
 h1,h2,ul{
-	background-color:rgba(92,184,232,.5);
-	background-size: 20px 10px;
-	border: solid 1px;
 	padding: 10px;
 	text-align: left;
+	opacity: 1;
 }
 #secondh2{
 	font-family: helvetica, serif;
@@ -35,11 +36,16 @@ h1,h2,ul{
 h3{
 }
 hr{
-	width: 200px;
+	width: 400px;
+}
+p{
+	background-color: #CCE8CF;
+	padding: 10px;
 }
 
 /* Q's
 timing of lessons vs. weeks
+text opacity on heading
 making headings/text closer to each other
 sections, grid
 colors of things in sublime
