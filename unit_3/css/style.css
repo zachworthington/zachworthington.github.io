@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Neuton);
+body{
+	/*background-color:#5CB8E8;*/
+	background-image: url("images/mic.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Neuton', serif;
+	text-align: center;
+	color: #461C25;
+}
+#top{
+	border: dashed;
+}
+h1{
+	text-transform: uppercase;
+	color:#801C25;
+	font-weight:900;
+}
+h1,h2,ul{
+	background-color:rgba(92,184,232,.5);
+	background-size: 20px 10px;
+	border: solid 1px;
+	padding: 10px;
+	text-align: left;
+}
+#secondh2{
+	font-family: helvetica, serif;
+	font-weight: bold;
+	background-image: url();
+}
+#wremail{
+	text-decoration: none;	
+}
+h3{
+}
+hr{
+	width: 200px;
+}
+
+/* Q's
+timing of lessons vs. weeks
+making headings/text closer to each other
+sections, grid
+colors of things in sublime
+indenting properly
+Where can I find examples of external style sheets to use as templates?
+*/
