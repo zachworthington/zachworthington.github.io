@@ -1,54 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Neuton);
+* { margin:0; padding:0; box-sizing:border-box;}
 body{
-	/*background-color:#5CB8E8;*/
+	background-color:#5CB8E8;
 	background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=10000&soubor=1-12433511551KPg.jpg");
 	background-size: cover;
 	background-position: center;
-	back
 	background-repeat: no-repeat;
 	font-family: 'Neuton', serif;
-	text-align: center;
+	text-align: left;
 	color: #461C25;
-}
-#top{
-	border: dashed;
-	background-color: #C29CAE;
-	opacity: .4;
 }
 h1{
 	text-transform: uppercase;
 	color:#801C25;
-	font-weight:900;
+	font-weight:700;
+	text-decoration: none;
+}
+img{
+	width: 400px;
+	height: auto;
 }
 h1,h2,ul{
 	padding: 10px;
 	text-align: left;
 	opacity: 1;
 }
-#secondh2{
-	font-family: helvetica, serif;
-	font-weight: bold;
-	background-image: url();
-}
-#wremail{
-	text-decoration: none;	
-}
 h3{
+}
+footer{
+	text-align: bottom;
 }
 hr{
 	width: 400px;
 }
-p{
-	background-color: #CCE8CF;
-	padding: 10px;
+
+#wremail, #wrh1{
+	text-decoration: none;	
 }
 
 /* Q's
-timing of lessons vs. weeks
-text opacity on heading
-making headings/text closer to each other
-sections, grid
-colors of things in sublime
-indenting properly
-Where can I find examples of external style sheets to use as templates?
+create logo bar for bottom?
+
+
 */
