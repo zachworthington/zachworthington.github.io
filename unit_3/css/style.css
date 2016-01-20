@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Neuton);
 * { margin:0; padding:0; box-sizing:border-box;}
 body{
-	margin: 10px;
+	margin: 5em;
 	background-color:#5CB8E8;
 	background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=10000&soubor=1-12433511551KPg.jpg");
 	background-size: cover;
@@ -11,7 +11,7 @@ body{
 	text-align: left;
 	color: #461C25;
 
-	
+
 
 /* Q's
 create logo bar for bottom?
