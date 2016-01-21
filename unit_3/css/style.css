@@ -1,5 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Neuton);
-* { margin:0; padding:0; box-sizing:border-box;}
+@import url(https://fonts.googleapis.com/css?family=Belleza);
+
+* { margin:0; padding:.1em; box-sizing:border-box;}
+h1{
+	font-family: Belleza;
+}
 body{
 	margin: 5em;
 	background-color:#5CB8E8;
@@ -12,7 +16,7 @@ body{
 	color: #461C25;
 }
 p{
-	background-color: #000
+	background-color: #FFF
 }
 
 
