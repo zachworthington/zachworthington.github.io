@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Belleza);
-
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
 * { margin:0; padding:.1em; box-sizing:border-box;}
 h1{
 	font-family: Belleza;
@@ -11,7 +11,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	font-family: 'Neuton', serif;
+	font-family: 'PT Serif', serif;
 	text-align: left;
 	color: #461C25;
 }
