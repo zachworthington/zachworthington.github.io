@@ -3,14 +3,15 @@
 * { margin:0; padding:0; box-sizing:border-box;}
 
 
-body{	
+body{
+	background-image: url("images/mic.jpg");
+	background-image: url("http://img.wallpaperstock.net:81/silver-mic-wallpapers_17586_2560x1920.jpg");
 	margin: 2em;
 	font-family: 'Alegreya', serif;
 	text-align: left;
-	background-image: url("images/mic.jpg");
-	background-position: left;
 }
 h1{
+	background-image: url("images/mic.jpg");
 	font-family: "Carrois Gothic SC",sans-serif;
 	font-size: 52px;
 	line-height: 60px;
