@@ -2,9 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya);
 * { margin:0; padding:0; box-sizing:border-box;}
 
-
+background-image: url("../images/mic.jpg");
 body{
-	background-image: url("images/mic.jpg");
 	margin: 2em;
 	font-family: 'Alegreya', serif;
 	text-align: left;
