@@ -4,7 +4,7 @@
 
 
 body{
-	background-image: url("http://www.homestudiocorner.com/wp-content/uploads/2011/07/3623619145_9502cefc5c.jpeg")no-repeat center center fixed;
+	background: url("../images/micsmall.jpg")no-repeat center fixed;
 	margin: 2em;
 	font-family: 'Alegreya', serif;
 	text-align: left;
