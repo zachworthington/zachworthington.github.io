@@ -16,6 +16,10 @@ h1{
 	font-weight: 400;
 	font-style: normal;
 }
+iframe{
+	border-color: black;
+	border-width: 1em;
+}
 
 p{
 }
