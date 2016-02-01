@@ -2,56 +2,66 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya);
 * { margin:0; padding:0; box-sizing:border-box;}
 
-
-body{
-	/*background: url("../images/micsmall.jpg")no-repeat center fixed;*/
-	background-color: brown;
-	margin: 2em;
-	font-family: 'Alegreya', serif;
-	text-align: left;
-	color: black;
-}
 header{
-	background-color: grey;
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
 }
 h1{
 	font-family: "Carrois Gothic SC",sans-serif;
-	font-size: 52px;
-	line-height: 60px;
-	font-weight: 400;
-	font-style: normal;
-	margin: 0 auto;
 }
 iframe{
-	background-color: pink
+	background-color: #FFE2B8;
 	border-color: black;
 	border-width: 1em;
-	display:inline-block;
 }
 nav{
-	display:inline-block;
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+    height: 200px;
 }
-p{
 
-}
-ul{
-	background-color: orange;
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
 	font-family: "Carrois Gothic SC";
 	color: #000;
-	display:inline-block;
-	list-style: none;
 }
-a{
-	color: black;
+article{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+ul{
+	list-style-type: none;
 }
 footer{
-
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
-
+.wrapper{ /*(DIV CLASS)*/
+	background: url("http://preview.turbosquid.com/Preview/2014/05/26__02_05_23/mic.jpg3f359e6a-7295-43f4-8fda-e9dc72e544f3Original.jpg")no-repeat center center fixed;
+	/*background-color: #FFE2B8;*/
+    border: 1px black solid;
+    padding: 20px;
+}
+#one{ /*(SECTION ID)*/
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;	
+}
+/*#demo1{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 200px;
+}*/
 
 
 /* Q's
 create logo bar for bottom?
-
-
+aside list style type no bullets
+added "demo1 id attribute but not sure if it works"
 */
