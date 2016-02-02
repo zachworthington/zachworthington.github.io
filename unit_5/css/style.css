@@ -2,6 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya);
 * { margin:0; padding:0; box-sizing:border-box;}
 
+.wrapper{ /*(DIV CLASS)*/
+	background: url("http://preview.turbosquid.com/Preview/2014/05/26__02_05_23/mic.jpg3f359e6a-7295-43f4-8fda-e9dc72e544f3Original.jpg")no-repeat center center fixed;
+	/*background-color: #FFE2B8;*/
+    border: 1px black solid;
+    padding: 20px;
+}
 header{
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -15,13 +21,6 @@ iframe{
 	border-color: black;
 	border-width: 1em;
 }
-nav{
-	background-color: #E8C66A;
-	border: 1px black solid;
-    padding: 20px;
-    height: 200px;
-}
-
 aside{
 	background-color: #FFC675;
 	border: 1px black solid;
@@ -31,33 +30,43 @@ aside{
 }
 article{
 	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+    border: 5px black double;
+    padding: 1em;
 }
-ul{
-	list-style-type: none;
+#demo1{
+	background-color: #FFE2B8;
+    border: 5px black dotted;
+    padding: 10px;
+}
+#demo2{
+	background-color: #FFE2E8;
+    border: 1px black solid;
+    padding: 10px;
 }
 footer{
 	background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
 }
-.wrapper{ /*(DIV CLASS)*/
-	background: url("http://preview.turbosquid.com/Preview/2014/05/26__02_05_23/mic.jpg3f359e6a-7295-43f4-8fda-e9dc72e544f3Original.jpg")no-repeat center center fixed;
-	/*background-color: #FFE2B8;*/
-    border: 1px black solid;
-    padding: 20px;
+nav{
+	background-color: #ff7900;
+}
+a{
+	display: block;
+	background-color: red;
+	text-decoration: none;
+	padding: 10px;
+	width: 200px;
+}
+a:hover{
+	background-color: #aaaaaa;
 }
 #one{ /*(SECTION ID)*/
 	background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;	
 }
-/*#demo1{
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 200px;
-}*/
+
 
 
 /* Q's
