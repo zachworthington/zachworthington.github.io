@@ -6,10 +6,24 @@
 /*semantics, first, then classes together, then id's together
 PSeudo classes AFTER class it represents*/
 
+@media only screen and (max-width: 542px) {
+	.headertext h1{
+		font-size: 34;
+	}
+	iframe{
+		width: auto;
+	}
+	#demos{
+		width: auto;
+	}
+}
+
 .wrapper{
-	background: #EBE0DE;
+	background: rgba(235,224,222,1);
     font-family: "Alegreya",sans-serif;
-    width: 970px;
+    /*width: 970px;*/
+    max-width: 95%;
+    margin-left: 2.5%;
     color:#000;
 }
 nav, #demos, aside{
@@ -21,14 +35,18 @@ header{
 	background-position: right;
 	border: 3px #000 solid;
     padding: 1em;
-    margin: 10;
-    width: auto;
+    margin: 10;;
+    width: 95%;
     height: auto;
     text-align: left;
 }
-header img{
+/*header img{
 	border: 3px solid #000;
 	float: right;
+}*/
+.headertext{
+	display: inline-block;
+	background: rgba(235,224,222,.8);
 }
 header a{
 	text-decoration: none;
