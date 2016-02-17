@@ -132,6 +132,9 @@ aside ul{
 	list-style-position: inside;
 	font-size: 18;
 }
+aside li{
+	margin:.75em 10% .75em 0;
+}
 aside h3{
 	text-align: left;
 	padding-bottom: 2%;
@@ -160,8 +163,11 @@ h3{
 	text-align: center;
 }
 small p{
+	background-color: rgba(158,139,134,.9);
+	color: #FFF;
 	text-align: center;
 	padding-top: .25%;
+	width: auto;
 }
 a:hover{
 	background-color: #aaaaaa;
