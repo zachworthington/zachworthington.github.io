@@ -1,14 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
-@import url(https://fonts.googleapis.com/css?family=Alegreya);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
 * { margin:0; padding:0; box-sizing:border-box;}
 
 /*GENERAL->SPECIFIC!*/
 /*semantics, first, then classes together, then id's together
 PSeudo classes AFTER class it represents*/
 
-@media only screen and (max-width: 542px) {
+/*How to get background image in header to go up top*/
+
+@media only screen and (max-width: 687px) {
 	.headertext h1{
-		font-size: 34;
+		font-size: 24px;
 	}
 	iframe{
 		width: auto;
@@ -16,14 +17,23 @@ PSeudo classes AFTER class it represents*/
 	#demos{
 		width: auto;
 	}
+	/*CANT SEEM TO GET THIS TEXT TO SHRINK*/
+	nav{
+		font-size: 5px;
+	}
+	header{
+		background-position: top;
+	}
+	aside{
+		font-size: 1em;
+	}
 }
 
 .wrapper{
-	background: rgba(235,224,222,1);
-    font-family: "Alegreya",sans-serif;
-    /*width: 970px;*/
-    max-width: 95%;
-    margin-left: 2.5%;
+	background: url("../images/halfdome.JPG") no-repeat center center fixed; 
+	/*background: rgba(209,200,198,1);*/
+	padding: 2%;
+    font-family: 'Oxygen', sans-serif;
     color:#000;
 }
 nav, #demos, aside{
@@ -31,86 +41,96 @@ nav, #demos, aside{
 }
 header{
 	background: url("../images/wendythin.jpg")no-repeat;
+	background-color: rgba(230,235,234,.9);
 	background-size: contain;
-	background-position: right;
-	border: 3px #000 solid;
-    padding: 1em;
-    margin: 10;;
-    width: 95%;
+	background-position: center;
+    padding: 2%;
     height: auto;
     text-align: left;
 }
-/*header img{
-	border: 3px solid #000;
-	float: right;
-}*/
 .headertext{
 	display: inline-block;
-	background: rgba(235,224,222,.8);
+	background: rgba(230,235,234,.9);
 }
 header a{
 	text-decoration: none;
 }
 nav{
-	background-color: rgba(129,104,96,.8);
+	background-color: rgba(230,235,234,.9);
 	padding: 10 10 10 20;
-	width: 200;
-	padding: 10;
-	margin: 10;
+	width: 15%;
+	padding: 1%;
 }
 nav a{
 	display: inline-block;
 	font-size: 20px;
-	background-color: rgba(129,104,96,.8);
+	color: #0C9C68;
 	text-decoration: none;
-	padding: 15;
+	padding: 8%;
 	width: 100%;
-	border:3px outset #000;
+
+/*	border:5px outset rgba(129,104,96,.2);*/
 }
 nav ul{
 	text-decoration: none;
 }
+.midwrapper{
+	padding: 1.5%;
+}
 article{
-	background-color: rgba(129,104,96,.8);
-	width: 500;
-	padding: 10;
-	margin: 10;
+	background-color: rgba(230,235,234,.9);
+	width: 65%;
+	padding: 1%;
+}
+#demos h2{
+padding-bottom: 1%;
 }
 iframe{
 	padding: 5;
 	height: 150;
 }
 aside{
-	background-color: rgba(129,104,96,.8);
-	width: 210;
-	padding: 10;
-	margin: 10 10 0 10;
+	background-color: rgba(230,235,234,.9);
+	width: 19%;
+	padding: 1%;
 }
 aside ul{
 	list-style-position: inside;
 	font-size: 18;
 }
+aside h3{
+	text-align: left;
+	padding-bottom: 2%;
+}
 footer{
-	background-color:rgba(129,104,96,.8);
-    border-color: black;
-	border-width: 1em;
-	padding: 10;
-	margin: 10;
+	background-color:#E6EBEA;
+	padding: 1% 2%;
+}
+footer h3{
+	padding: 0 0 2% 0;
 }
 footer img{
-	margin: 0 8;
 	border:3px groove black;
+	margin: 0 3%;
+}
+h1, h2, h3{
+	text-transform: uppercase;
 }
 h1{
 	font-size: 50;
 }
 h2{
-	text-decoration: underline;
 	text-align: center;
+}
+h3{
+	text-align: center;
+}
+small p{
+	text-align: center;
+	padding-top: .25%;
 }
 a:hover{
 	background-color: #aaaaaa;
-	font-size: 115%;
 	text-decoration: blink;
 }
 .midwrapper:after {
@@ -129,7 +149,6 @@ header:after {
     clear: both;
     height: 0;
 }
-
 
 
 /* Q's
