@@ -10,7 +10,7 @@ PSeudo classes AFTER class it represents*/
 
 
 .wrapper{
-	background: rgba(209,200,198,1) url("../images/blackf.jpg") repeat center center fixed;
+	background: rgba(180,208,224,1) url("../images/tiles.jpg") no-repeat center center fixed;
 	padding: 2%;
     font-family: 'Oxygen', sans-serif;
     color:#000;
@@ -20,18 +20,18 @@ nav, #demos, aside{
 }
 header{
 /*	background: url("../images/wendythin.jpg")no-repeat;*/
-	background-color: rgba(230,235,234,.9);
+	background-color: rgba(127,132,107,.9);
 	border-radius: 25px;
 	background-size: contain;
-	background-position: right;
+	background-position: center;
 	margin:auto;
     height: auto;
     text-align: left;
 }
 header img{
 	display: inline-block;
-	float: right;
-	border-radius: 0 25px 25px 0;
+	float: left;
+	border-radius: 25px 0 0 25px;
 }
 .headertext{
 	display: inline-block;
@@ -44,11 +44,10 @@ header a{
 
 }
 nav{
-	background-color: rgba(230,235,234,.9);
-	border-radius: 12.5px;
+	background-color: rgba(139,139,138,.9);
+	border-radius: 12.5px 0 0 12.5px;
 	width: 15%;
 	padding: 1%;
-	margin: .1%;
 }
 nav a{
 	font-size: 20px;
@@ -58,17 +57,15 @@ nav a{
 nav ul{
 	text-decoration: none;
 	list-style: none;
-	padding:5%;
 }
 .midwrapper{
-	padding: 1.5%;
+	padding: .5%;
 }
 article{
-	background-color: rgba(230,235,234,.9);
-	border-radius: 12.5px;
+	background-color: rgba(139,139,138,.9);
 	width: 60%;
 	padding: 1%;
-	margin: .1%;
+	margin: auto;
 }
 #demos h2{
 padding-bottom: 1%;
@@ -78,11 +75,11 @@ iframe{
 	height: 150;
 }
 aside{
-	background-color: rgba(230,235,234,.9);
-	border-radius: 12.5px;
+	background-color: rgba(139,139,138,.9);;
+	border-radius: 0 12.5px 12.5px 0;
 	width: 23%;
 	padding: 1%;
-	margin: .1%;
+	margin: 0 0 0 1%;
 }
 aside ul{
 	list-style-position: inside;
@@ -96,11 +93,11 @@ aside h3{
 	padding-bottom: 2%;
 }
 footer{
-	background-color: rgba(230,235,234,.9);
+	background-color: rgba(139,139,138,.9);
 	padding: 1% 2%;
 }
 footer h3{
-	padding: 0 0 2% 0;
+	padding: 0 0 1% 0;
 }
 footer img{
 	border:3px groove black;
