@@ -1,14 +1,547 @@
-<<!DOCTYPE html>
+
 <html>
 
 <head>
-	<title>Pediatric Partners of Cleveland</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
 
-<body>
-	<h1>Pediatric Partners of Cleveland</h1>
-	<p>Health <em>care.</em></p>
+	<title>Molly's Cupcakes: Home</title>
+
+
+	<link rel="stylesheet" href="main.css"/>
+
+	<script type="text/javascript" src="main.js"></script>
+	
+	<script language="javascript">
+		function email(display,width,height)
+		{
+			var email = document.getElementById("email");
+			showLightbox(email,display,width,height);
+		}
+		function delivery(display,width,height)
+		{
+			var delivery = document.getElementById("delivery");
+			showLightbox(delivery,display,width,height);
+		}
+		
+		function myPopup() 
+		{                 
+			window.open( "/chicago/images/delivery_pop_up.jpg", "myWindow", 
+			"status = 1, height = 506, width = 450, resizable = 0" )
+		}
+		function myPopupEmail() 
+		{                 
+			window.open( "http://www.mollyscupcakes.com/email_pop_up_4.jpg", "myWindow", 
+			"status = 1, height = 506, width = 450, resizable = 0" )
+		}
+		function myPopupFAQ() 
+		{                 
+			window.open( "/chicago/pdf/weddings_faq_CHI_9_24_13.pdf", "myWindow", 
+			"status = 1, height = 900, width = 1050, resizable = 0" )
+		}
+		function myPopupWedding_price() 
+		{                 
+			window.open( "/chicago/pdf/weddings_info_prices_CHI_9_24_13.pdf", "myWindow", 
+			"status = 1, height = 900 width = 1050, resizable = 0" )
+		}
+		
+		function changeImage(myImage) {
+			if (myImage == "1") {
+				document.MyMainImage.src="../images/wedding_pic1.jpg";
+			} else if (myImage == "2") {
+				document.MyMainImage.src="../images/wedding_pic2.jpg";
+			} else if (myImage == "3") {
+				document.MyMainImage.src="../images/wedding_pic3.jpg";
+			} else if (myImage == "4") {
+				document.MyMainImage.src="../images/wedding_pic4.jpg";
+			} else {
+				alert("nothing");
+			}
+
+
+		}
+		
+		
+		function sumCenterfilled(){
+			
+			var ron = parseInt(document.getElementById('ron2').value);
+			if(isNaN(ron)) {
+				ron = 0;
+			}
+			var dec = parseInt(document.getElementById('dec2').value);
+			if(isNaN(dec)) {
+				dec = 0;
+			}
+			var tiramisu = parseInt(document.getElementById("tiramisu2").value);
+			if(isNaN(tiramisu)) {
+				tiramisu = 0;
+			}
+			var choc_rasp = parseInt(document.getElementById("choc_rasp2").value);
+			if(isNaN(choc_rasp)) {
+				choc_rasp = 0;
+			}
+			var boston_cream = parseInt(document.getElementById("boston_cream2").value);
+			if(isNaN(boston_cream)) {
+				boston_cream = 0;
+			}
+			var mixed_berry = parseInt(document.getElementById("mixed_berry2").value);
+			if(isNaN(mixed_berry)) {
+				mixed_berry = 0;
+			}
+			var cookie_monster = parseInt(document.getElementById("cookie_monster2").value);
+			if(isNaN(cookie_monster)) {
+				cookie_monster = 0;
+			}
+			var oreo = parseInt(document.getElementById("oreo2").value);
+			if(isNaN(oreo)) {
+				oreo = 0;
+			}
+			var nutella = parseInt(document.getElementById("nutella2").value);
+			if(isNaN(nutella)) {
+				nutella = 0;
+			}
+			var minty = parseInt(document.getElementById("minty2").value);
+			if(isNaN(minty)) {
+				minty = 0;
+			}
+			var peach = parseInt(document.getElementById("peach2").value); 
+			if(isNaN(peach)) {
+				peach = 0;
+			}
+			var sumTotal = ron + dec + tiramisu + choc_rasp + boston_cream + mixed_berry + cookie_monster + oreo + nutella + minty + peach;
+			
+			document.getElementById("totalCenterfilled").value = sumTotal;
+			
+			
+		}
+
+	</script>
+    
+    
+
+<script src="/lib/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+<script language="javascript">
+$(document).ready(function() {
+ 
+	// store url for current page as global variable
+	current_page = document.location.href
+	 
+	// apply selected states depending on current page
+	if (current_page.match(/chicago/)) {
+	$("ul.sub-nav-text li a:eq(0)").addClass('selected');
+	} else if (current_page.match(/ny/)) {
+	$("ul.sub-nav-text li a:eq(1)").addClass('selected');
+	} else { // don't mark any nav links as selected
+	$("ul#.sub-nav-text li a").removeClass('selected');
+	};
+ 
+});
+
+</script>
+
+
+<script>
+                    (function(d, s, id) {
+                        var js, dt = new Date().getTime(), jst = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = 'https://facebook.chownow.com/static/js/iframe.js?'+dt+'#cid=487';
+                        jst.parentNode.insertBefore(js, jst);
+                    }(document, 'script', 'chownow-js'));
+                    </script>
+	
+</head>
+<body class="body">
+	<table class="main" cellpadding="0" cellspacing="0">
+		<tr>
+			<td><img src="images/shadow-top-left-corner.gif"/></td>
+			<td colspan="5" style="background-image: url(images/shadow-top.gif); background-repeat: repeat-x;"><img src="images/spacer.gif" height="30px" /></td>
+			<td><img src="images/shadow-top-right-corner.gif"/></td>
+		</tr>
+		<tr height="1">
+			<td><img src="images/shadow-left.gif"/></td>
+			<td colspan="5"><img src="images/hdot.gif" width="856" height="1"/></td>
+			<td><img src="images/shadow-right.gif"/></td>
+		</tr>
+		<tr>
+			<td style="background-image: url(images/shadow-left.gif); background-repeat: repeat-y;"><img src="images/spacer.gif" width="30px" /></td>
+			<td><img src="images/spacer.gif" width="10" height="1"/></td>
+			<td class="vdot"><img src="../images/spacer.gif" width="1"/></td>
+			<td style="vertical-align:top">
+				<table style="width:100%" cellpadding="0" cellspacing="0">
+					<tr>
+						<td>
+							<table class="title" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="header-wrapper"><a href="home.aspx"><img src="images/logo.jpg" width="122" height="133"/></a>
+            	
+                <ul class="sub-nav-text">
+                    <li><a href="/chicago/home.aspx">Chicago</a></li>
+                    <li><a href="/ny/home.aspx">New York</a></li> 
+                    <li><a href="http://www.icmollys.com/">Iowa City</a> </li>
+                </ul>
+                
+                <a href="delivery.aspx"><img src="images/delivery.jpg" width="71" height="63" border="0" class="delivery"/></a>
+                
+              <a href="/chicago/pdf/Chicago_Menu_0715.pdf" target='_blank'>
+                    <img src="images/menu.jpg" width="71" height="63" class="menu"/></a> 
+                    
+                <a id="chownow-order-online"><img src="/images/btn-order-online.jpg" width="72" height="72" alt="Order Online" class="order-online"></a>
+                <a href="http://swipeit.com/product/484/mollys-cupcakes" target="_blank"><img src="/ny/images/gift-cards.jpg" alt="Get Gift Cards" width="64" height="63" border="0" class="gift-cards"></a>
+                                  </td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+                    <tr>
+                    	<td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                    	<td><img src="images/spacer.gif" width="0" height="5"></td>
+                    </tr>
+					<tr>
+						<td>
+							<table class="separator" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="images/hdot.gif" width="852" height="1"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table class="header" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+									<td><img src="images/spacer.gif" width="1" height="15"/></td>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+								</tr>
+								<tr>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+									<td>
+										<table class="headerBody" cellpadding="0" cellspacing="0">
+											<tr>
+												<td><img src="images/header-top-left.gif" width="19" height="17"/></td>
+												<td></td>
+												<td style="text-align:right;"><img src="images/header-top-right.gif" width="19" height="17"/></td>
+											</tr>
+										</table>
+									</td>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+								</tr>
+								<tr>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+									<td>
+										<table class="headerBody" cellpadding="0" cellspacing="0">
+											<tr style="height:15px;">
+												<td style="width:54px;">&nbsp;</td>
+												<td><a href="cupcakes.aspx"><img src="images/header-cupcakes2.jpg" width="75" height="11"/></a></td>
+												<td class="separatorLeft">&nbsp;</td>
+												<td><img src="images/header-separator.jpg" width="5" height="12"/></td>
+												<td class="separatorRight">&nbsp;</td>
+												<td><a href="moretreats.aspx"><img src="images/header-treats2.jpg" width="103" height="11"/></a></td>
+												<td class="separatorLeft">&nbsp;</td>
+												<td><img src="images/header-separator.jpg" width="5" height="12"/></td>
+												<td class="separatorRight">&nbsp;</td>
+												<td><a href="ordering.aspx"><img src="images/header-ordering2.jpg" width="76" height="11"/></a></td>
+												<td class="separatorLeft">&nbsp;</td>
+												<td><img src="images/header-separator.jpg" width="5" height="12"/></td>
+												<td class="separatorRight">&nbsp;</td>
+												<td><a href="weddings.aspx"><img src="images/header-weddings2.jpg" width="76" height="11"/></a></td>
+												<td class="separatorLeft">&nbsp;</td>
+												<td><img src="images/header-separator.jpg" width="5" height="12"/></td>
+												<td class="separatorRight">&nbsp;</td>
+												<td><a href="mission.aspx"><img src="images/header-mission2.jpg" width="127" height="11"/></a></td>
+												<td class="separatorLeft">&nbsp;</td>
+												<td><img src="images/header-separator.jpg" width="5" height="12"/></td>
+												<td class="separatorRight">&nbsp;</td>
+												<td><a href="gallery.aspx"><img src="images/header-photos2.jpg" width="57" height="11"/></a></td>
+												<td class="separatorLeft">&nbsp;</td>
+												<td><img src="images/header-separator.jpg" width="5" height="12"/></td>
+												<td class="separatorRight">&nbsp;</td>
+												<td><a href="seenandheard.aspx"><img src="images/header-press2.jpg" width="122" height="11"/></a></td>
+												<td style="width:54px;">&nbsp;</td>
+											</tr>
+										</table>
+									</td>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+								</tr>
+								<tr>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+									<td>
+										<table class="headerBody" cellpadding="0" cellspacing="0">
+											<tr>
+												<td><img src="images/header-bottom-left.gif" width="19" height="17"/></td>
+												<td></td>
+												<td style="text-align:right;"><img src="images/header-bottom-right.gif" width="19" height="17"/></td>
+											</tr>
+										</table>
+									</td>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+								</tr>
+								<tr>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+									<td><img src="images/spacer.gif" width="1" height="15"/></td>
+									<td><img src="images/spacer.gif" width="15" height="1"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table class="separator" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="images/hdot.gif" width="852" height="1"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+
+
+
+							<table class="mainBody" style="padding-bottom:42px;" cellpadding="0" cellspacing="0">
+
+								<tr>
+
+									<td><img src="../images/spacer.gif" width="29" height="1"/></td>
+
+									<td><img src="../images/platter.jpg" width="325" height="373"/></td>
+
+									<td style="vertical-align:top;">
+
+										<table class="textBody" style="width:469px;" cellpadding="0" cellspacing="0">
+
+											<tr>
+
+												<td colspan="2"><img src="../images/spacer.gif" width="1" height="18"/></td>
+
+											</tr>
+
+											<tr>
+
+												<td><img src="../images/spacer.gif" width="2" height="1"/></td>
+
+												<td><img src="../images/welcome.jpg" width="233" height="31"/></td>
+
+											</tr>
+
+											<tr>
+
+												<td colspan="2"><img src="../images/spacer.gif" width="1" height="13"/></td>
+
+											</tr>
+
+											<tr>
+
+												<td><img src="../images/spacer.gif" width="2" height="1"/></td>
+
+												<td style="line-height:1.5em;">
+
+													<span class="headerBlue">Miss Molly:</span> Molly was my third-grade teacher. Whenever one of us had<br/>
+
+														a birthday, she would bake us cupcakes. I still remember how good they<br/>
+
+														were. She had her own special recipe for chocolate and vanilla. Just<br/>
+
+														about everyone who tries them thinks they're the best cupcakes ever.
+
+												</td>
+
+											</tr>
+
+											<tr>
+
+												<td><img src="../images/spacer.gif" width="2" height="1"/></td>
+
+												<td style="padding-top:7px; line-height:1.5em;">
+
+													<span class="headerBlue">Our Mission:</span> In honor of Molly and as a way to help our children, a<br/>
+
+														portion of our profits is donated directly to schools in our community.<br/>
+
+														Every time you eat a cupcake or sip a latte, you help our kids. So<br/>
+
+														eat up!
+
+												</td>
+
+											</tr>
+
+											<tr>
+
+												<td colspan="2"><img src="../images/spacer.gif" width="1" height="13"/></td>
+
+											</tr>
+
+											<tr>
+
+												<td><img src="../images/spacer.gif" width="2" height="1"/></td>
+
+												<td style="padding-top:3px"><img src="../images/johnny.jpg" width="95" height="35"/></td>
+
+											</tr>
+
+											<tr>
+
+												<td colspan="2"><img src="../images/spacer.gif" width="1" height="13"/></td>
+
+											</tr>
+
+											<tr>
+
+												<td><img src="../images/spacer.gif" width="2" height="1"/></td>
+
+												<td class="smallOrange spacing" style="font-size:10px;">CHIEF EGG CRACKER</td>
+
+											</tr>
+
+											<tr>
+
+												<td><img src="../images/spacer.gif" width="2" height="1"/></td>
+
+												<td class="flavorTitle" style="font-size:9px;letter-spacing: 0.035cm;">&nbsp;&nbsp;&nbsp;&nbsp;- AND MOLLY'S CUPCAKES FOUNDER -</td>
+
+											</tr>
+
+										</table>
+
+									</td>
+
+								</tr>
+
+							</table>
+
+
+     						</td>
+					</tr>
+					<tr>
+						<td>
+							<table class="separator" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><img src="images/hdot.gif" width="852" height="1"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="footer" style="padding-left:11px;padding-right:6px">
+										<table class="locationInfo" cellpadding="0" cellspacing="0">
+											<tr>
+												<td><img src="images/spacer.gif" width="1" height="14"/></td>
+											</tr>
+											<tr>
+												<td class="contactTitle spacing">LOCATION</td>
+											</tr>
+											<tr>
+												<td class="contactText">2536 north clark street</td>
+											</tr>
+											<tr>
+												<td class="contactText">chicago illinois 60614</td>
+											</tr>
+											<tr>
+												<td><img src="images/spacer.gif" width="1" height="12"/></td>
+											</tr>
+										</table>
+									</td>
+									<td class="footer">
+										<table class="bakeryInfo" cellpadding="0" cellspacing="0">
+											<tr>
+												<td><img src="images/spacer.gif" width="1" height="14"/></td>
+											</tr>
+											<tr>
+												<td class="contactTitle spacing">BAKERY HOURS</td>
+											</tr>
+											<tr>
+												<td class="contactText"><span class="contactTextSm">MONDAY:</span> 12:00pm - 10:00pm&nbsp;&nbsp;|&nbsp;&nbsp;<span class="contactTextSm">TUESDAY - THURSDAY:</span> 8:00am - 10:00pm</td>
+											</tr>
+											<tr>
+												<td class="contactText"><span class="contactTextSm">FRIDAY + SATURDAY:</span> 8:00am - 12:00am&nbsp;&nbsp;|&nbsp;&nbsp;<span class="contactTextSm">SUNDAY:</span> 9:00am - 10:00pm</td>
+											</tr>
+											<tr>
+												<td><img src="images/spacer.gif" width="1" height="12"/></td>
+											</tr>
+										</table>
+									</td>
+									<td class="footer" style="padding-left:6px;padding-right:11px">
+										<table class="contactInfo" cellpadding="0" cellspacing="0">
+											<tr>
+												<td><img src="images/spacer.gif" width="1" height="14"/></td>
+											</tr>
+											<tr>
+												<td class="contactTitle spacing">CONTACT</td>
+											</tr>
+											<tr>
+												<td class="contactText"><span class="contactTextSm">TELEPHONE</span>&nbsp;&nbsp;773.883.7220</td>
+											</tr>
+											<!--
+											<tr>
+												<td class="contactText"><span class="contactTextSm emailLink"><a href="javascript:email2('block');">EMAIL US - layer</a></span></td>
+											</tr>
+											-->
+											<tr>
+												<td class="contactText"><span class="contactTextSm emailLink"><a href="javascript:myPopupEmail();">EMAIL US</a></span></td>
+											</tr>
+											<!--
+											<tr>
+												<td class="contactText"><span class="contactTextSm emailLink"><a href="email.pdf" target="_blank">EMAIL US - window</a></span></td>
+											</tr>
+											-->
+											<tr>
+												<td><img src="images/spacer.gif" width="1" height="12"/></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="vdot"><img src="../images/spacer.gif" width="1"/></td>
+			<td><img src="images/spacer.gif" width="10" height="1"/></td>
+			<td style="background-image: url(images/shadow-right.gif); background-repeat: repeat-y;"><img src="images/spacer.gif" width="30px" /></td>
+		</tr>
+		<tr height="1">
+			<td><img src="images/shadow-left.gif"/></td>
+			<td colspan="5"><img src="images/hdot.gif" width="856" height="1"/></td>
+			<td><img src="images/shadow-right.gif"/></td>
+		</tr>
+		<tr>
+			<td><img src="images/shadow-bottom-left-corner.gif"/></td>
+			<td colspan="5" style="background-image: url(images/shadow-bottom.gif); background-repeat: repeat-x;"><img src="images/spacer.gif" height="30px" /></td>
+			<td><img src="images/shadow-bottom-right-corner.gif"/></td>
+		</tr>
+	</table>
+    
+    
+    <table class="copyright" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>&copy; <script src="/js/date.js"></script>, Molly's Cupcakes IP Holding Company, LLC.  All rights reserved.</td>
+  </tr>
+</table>
+    
+	<a name="emailAnchor"/>
+	<div id="email" style="position:absolute;top:300;left:500;display:none;z-index:301;">
+		<img src="images/email.jpg" usemap="#emailMap" width="477" height="537"/>
+	</div>
+	<map name="emailMap">
+		<area shape="rect" coords="400,32,447,48" href="javascript:email('none',477,537)">
+		<area shape="rect" coords="157,164,318,178" href="mailto:info@mollyscupcakes.com">
+		<area shape="rect" coords="157,280,319,290" href="mailto:mollysweddings@gmail.com">
+		<area shape="rect" coords="126,360,349,371" href="mailto:events_charity@mollyscupcakes.com">
+	</map>
+	<div id="delivery" style="position:absolute;top:300;left:500;display:none;z-index:300;">
+		<img src="images/delivery.gif" usemap="#deliveryMap" width="477" height="537"/>
+	</div>
+	<map name="deliveryMap">
+		<area shape="rect" coords="398,32,445,48" href="javascript:delivery('none',477,537)">
+	</map>
+							
+
 </body>
 
 </html>

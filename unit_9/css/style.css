@@ -5,12 +5,8 @@
 /*semantics, first, then classes together, then id's together
 PSeudo classes AFTER class it represents*/
 
-/*How to get background image in header to go up top*/
-
-
-
 .wrapper{
-	background: rgba(180,208,224,1) url("../images/tiles.jpg") no-repeat center center fixed;
+	background: #CDD0BE url("../images/wood.jpg") no-repeat center center fixed;
 	padding: 2%;
     font-family: 'Oxygen', sans-serif;
     color:#000;
@@ -20,7 +16,7 @@ nav, #demos, aside{
 }
 header{
 /*	background: url("../images/wendythin.jpg")no-repeat;*/
-	background-color: rgba(127,132,107,.9);
+	background-color: rgba(139,139,138,.9);
 	border-radius: 25px;
 	background-size: contain;
 	background-position: center;
@@ -46,17 +42,21 @@ header a{
 nav{
 	background-color: rgba(139,139,138,.9);
 	border-radius: 12.5px 0 0 12.5px;
+	margin-right: 1%;
 	width: 15%;
 	padding: 1%;
 }
 nav a{
 	font-size: 20px;
-	color: #0C9C68;
+	color: #fff;
 	text-decoration: none;
 }
 nav ul{
 	text-decoration: none;
 	list-style: none;
+}
+nav li{
+	padding: 8% 0 8% 2%;
 }
 .midwrapper{
 	padding: .5%;
@@ -139,12 +139,15 @@ a:hover{
 nav{
 	float: none;
 	width:100%;
+	margin-bottom: 1%;
+	border-radius: 15px;
 }
 nav li{
 	display: block;
 	float: left;
 	width: 25%;
 	text-align: center;
+	padding: 1%;
 }
 article{
 	width: 70%;
@@ -152,21 +155,13 @@ article{
 aside{
 	width: 29%;
 }
-}
-
-
-
 
 @media only screen and (max-width: 841px) {
 	header img{
-	width:100%;
-	height:80%;
-	float: left;
+		width:100%;
+		height:80%;
+		float: left;
 	}
-
-}
-@media only screen and (max-width: 841px) {
-	header img{
 		border-radius: 15px 15px 0 0;
 	}
 	aside{
@@ -183,15 +178,13 @@ aside{
 		height: 3em;
 	}
 }
-
-
 @media only screen and (max-width: 687px) {
 	.headertext h1{
 		font-size: 24px;
 	}
 	nav{
-		font-size: 5px;
-		margin-bottom: 1%;
+		font-size: 10px;
+		
 	}
 	header{
 		background-position: top;
@@ -211,7 +204,7 @@ nav li{
 	float: none;
 	display: block;
 	width: 100%;
-}
+	}
 }
 
 
