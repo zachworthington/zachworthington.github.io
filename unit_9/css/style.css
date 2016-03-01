@@ -106,16 +106,12 @@ aside h3{
 }
 #clients img{
 	border:3px groove black;
-	margin: 0 3%;
+	margin: 1% 3% 0 3%;
 }
 footer{
 	background-color: rgba(139,139,138,.9);
 	padding: 1% 2%;
 }
-footer h3{
-	padding: 0 0 1% 0;
-}
-
 h1, h2, h3, nav{
 	text-transform: uppercase;
 	font-family: 'Pontano+Sans', sans-serif;
@@ -128,10 +124,10 @@ h2{
 	text-align: left;
 }
 small p{
-	background-color: rgba(158,139,134,.9);
+/*	background-color: rgba(81,216,204,.9);
+*/	font-size: 1.25em;
 	color: #FFF;
 	text-align: center;
-	padding-top: .25%;
 	width: auto;
 }
 a:hover{
