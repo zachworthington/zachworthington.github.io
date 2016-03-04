@@ -8,7 +8,7 @@
 PSeudo classes AFTER class it represents*/
 
 .wrapper{
-	background: #CDD0BE url("../images/bgblue.jpg") no-repeat center center fixed;
+	background-color: #000 /*url("../images/bgblue.jpg") no-repeat center center fixed*/;
 	padding: 5%;
     font-family: 'Arapey', sans-serif;
     color:#000;
