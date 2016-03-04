@@ -44,7 +44,7 @@ nav{
 	box-shadow: 2px 2px 1px #333;
 	margin: 1% 0;
 	width: 100%;
-	padding: 1%;
+	padding: .15%;
 	text-align: center;
 }
 nav a{
@@ -87,13 +87,13 @@ aside{
 }
 aside ul{
 	list-style-position: inside;
-	
 }
 aside li{
-	margin:4.55% 1%;
-	font-size: 19px;
+	margin:3% 1%;
+	font-size: 1.5em;
 }
 aside h3{
+	font-size: 20px;
 	text-align: left;
 	padding-bottom: 2%;
 }
@@ -118,7 +118,7 @@ h1, h2, h3, nav{
 	color: #184A45;
 }
 h1{
-	font-size: 30;
+	font-size: 1.5em;
 }
 h2{
 	text-align: left;
