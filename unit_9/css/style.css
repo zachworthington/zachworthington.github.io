@@ -9,15 +9,15 @@ PSeudo classes AFTER class it represents*/
 
 .wrapper{
 	background-color: #000 /*url("../images/bgblue.jpg") no-repeat center center fixed*/;
-	padding: 5%;
+	padding: 2.5%;
     font-family: 'Arapey', sans-serif;
-    color:#000;
+    color: white;
 }
-nav, #demos, aside{
+#demos, aside{
 	float: left;
 }
 header{
-	background-color: rgba(244,224,205,.9);
+	background-color: rgba(31,94,88,.9);
 	border-radius: 8px;
     height: auto;
     text-align: left;
@@ -29,13 +29,14 @@ header img{
 	border-radius: 8px 0 0 8px;
 }
 .headertext{
+	color: white;
 	display: inline-block;
 	font-size: 22px;
 	padding:2%;
 }
 header a{
 	text-decoration: none;
-	color: #184A45;
+	color: white;
 
 }
 nav{
@@ -46,10 +47,11 @@ nav{
 	width: 100%;
 	padding: .15%;
 	text-align: center;
+	display: inline-block;
 }
 nav a{
 	font-size: 24px;
-	color: #184A45;
+	color: white;
 	text-decoration: underline;
 }
 nav ul{
@@ -115,10 +117,11 @@ footer{
 h1, h2, h3, nav{
 	text-transform: uppercase;
 	font-family: 'Pontano+Sans', sans-serif;
-	color: #184A45;
+	color: white;
 }
 h1{
 	font-size: 1.5em;
+	color: white;
 }
 h2{
 	text-align: left;
