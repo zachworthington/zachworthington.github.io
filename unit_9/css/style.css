@@ -30,7 +30,7 @@ header img{
 }
 .headertext{
 	display: inline-block;
-	font-size: 26px;
+	font-size: 22px;
 	padding:2%;
 }
 header a{
@@ -118,7 +118,7 @@ h1, h2, h3, nav{
 	color: #184A45;
 }
 h1{
-	font-size: 50;
+	font-size: 30;
 }
 h2{
 	text-align: left;
