@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 @import url(https://fonts.googleapis.com/css?family=Arapey);
 @import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 * { margin:0; padding:0; box-sizing:border-box;}
 
 /*GENERAL->SPECIFIC!*/
@@ -8,134 +9,113 @@
 PSeudo classes AFTER class it represents*/
 
 .wrapper{
-	background-color: #000 /*url("../images/bgblue.jpg") no-repeat center center fixed*/;
-	padding: 2.5%;
+	background-color: #0f0f0f /*url("../images/bgblue.jpg") no-repeat center center fixed*/;
     font-family: 'Arapey', sans-serif;
     color: white;
+}
+nav{
+	background-color: #000;
+	margin: auto;
+	width: 100%;
+	padding: 1% .5%;
+	display: inline-block;
+}
+nav a{
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+nav ul{
+	font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+nav li{
+	color: #fff;
+	padding: 0 1%;
+	display: inline-block;
 }
 #demos, aside{
 	float: left;
 }
 header{
-	background-color: rgba(31,94,88,.9);
-	border-radius: 8px;
+	/*background-color: rgba(43, 51, 34, 0.619608);*/
     height: auto;
-    text-align: left;
-	box-shadow: 2px 2px 1px #333;
+    padding: 1%;
+    text-align: center;
+}
+header h1{
+	display: inline-block;
+	float: left;
+	width: 24%;
+	padding-top: 13%;
 }
 header img{
 	display: inline-block;
 	float: left;
-	border-radius: 8px 0 0 8px;
+	width: 50%;
+	height: auto;
+	margin:0 1%;
 }
-.headertext{
-	color: white;
+header p{
 	display: inline-block;
-	font-size: 22px;
-	padding:2%;
+	float: left;
+	width: 24%;
+	padding-top: 13%;
 }
 header a{
 	text-decoration: none;
 	color: white;
-
-}
-nav{
-	background-color: rgba(244,224,205,.9);
-	border-radius: 8px;
-	box-shadow: 2px 2px 1px #333;
-	margin: 1% 0;
-	width: 100%;
-	padding: .15%;
-	text-align: center;
-	display: inline-block;
-}
-nav a{
-	font-size: 24px;
-	color: white;
-	text-decoration: underline;
-}
-nav ul{
-	text-decoration: none;
-	list-style: none;
-}
-nav li{
-	text-transform: uppercase;
-	padding: 1%;
-	width:24.5%;
-	display: inline-block;
 }
 article{
-	background-color: rgba(244,224,205,.9);
-	box-shadow: 2px 2px 1px #333;
-	border-radius: 8px 0 0 8px;
-	width: 70%;
-	padding: 1%;
+	display: inline-block;
+	float: left;
+	width: 30%;
 	margin: auto;
-}
-#demos h2{
-	padding-bottom: 1%;
 }
 iframe{
 	padding: 5;
 	height: 150;
 }
 aside{
-	background-color: rgba(244,224,205,.9);
-	box-shadow: 2px 2px 1px #333;
-	border-radius: 0 8px 8px 0;
 	width: 29%;
-	padding: 1%;
-	margin: 0 0 0 1%;
+	padding-left: 1%;
 }
 aside ul{
 	list-style-position: inside;
 }
 aside li{
 	margin:3% 1%;
-	font-size: 1.5em;
-}
-aside h3{
-	font-size: 20px;
-	text-align: left;
-	padding-bottom: 2%;
 }
 #clients{
-	background-color: rgba(244,224,205,.9);
-	box-shadow: 2px 2px 1px #333;
-	border-radius: 8px;
-	padding:1%;
-	margin:1em;
+	display: inline-block;
+	float: left;
+	width: 15%
 }
 #clients img{
+	display: inline-block;
+	float: left;
 	border:3px groove black;
-	margin: 1% 3% 0 3%;
+/*	margin: 1% 3% 0 3%;*/
 }
 footer{
 	background-color: rgba(139,139,138,.9);
 	padding: 1% 2%;
 }
-h1, h2, h3, nav{
+h1, h2, h3{
 	text-transform: uppercase;
 	font-family: 'Pontano+Sans', sans-serif;
 	color: white;
 }
-h1{
-	font-size: 1.5em;
-	color: white;
-}
-h2{
-	text-align: left;
-}
 small p{
-/*	background-color: rgba(81,216,204,.9);
-*/	font-size: 1.25em;
+	font-size: 1.25em;
 	color: #FFF;
 	text-align: center;
 	width: auto;
 }
 a:hover{
 	background-color: #aaaaaa;
-	text-decoration: blink;
+	text-decoration: none;
 }
 .clearfix:after {
     visibility: hidden;
@@ -147,7 +127,7 @@ a:hover{
 }
 
 @media only screen and (max-width: 972px) {
-header img{
+/*header img{
 	border-radius: 8px;
 }
 nav{
@@ -223,7 +203,7 @@ nav li{
 	display: block;
 	width: 100%;
 	min-height: 48px;
-	}
+	}*/
 }
 
 
