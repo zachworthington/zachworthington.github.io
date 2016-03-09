@@ -75,6 +75,9 @@ header a{
 	text-decoration: none;
 	color: white;
 }
+#mainsection{
+	padding: 0 5%;
+}
 /*INDUSTRY NITCHES*/
 aside{
 	width: 30%;
@@ -103,6 +106,10 @@ article{
 	float: left;
 	border:3px groove black;
 	margin: 1%;
+}
+#scroll{
+	display: inline-block;
+	float:right;
 }
 footer{
 	background-color: rgba(139,139,138,.2);
