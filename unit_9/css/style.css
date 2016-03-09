@@ -14,7 +14,8 @@ PSeudo classes AFTER class it represents*/
     font-family: 'Arapey', sans-serif;
     color: white;
 }
-.container {
+.container { 
+	/*TO KEEP NAV ON TOP*/
 	background-color: #000;
 	position: fixed;
 	top: 0;
