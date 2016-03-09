@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Arapey);
 @import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
 * { margin:0; padding:0; box-sizing:border-box;}
 
 /*GENERAL->SPECIFIC!*/
@@ -26,7 +27,8 @@ PSeudo classes AFTER class it represents*/
 	display: inline-block;
 }
 #name{
-	font-family: Oswald;
+	font-family: 'Bad Script', cursive;
+	font-size: 1.2em;
 	padding-left: 5%;
 }
 nav a{
@@ -53,6 +55,7 @@ header{
     text-align: center;
 }
 header h1{
+	font-family: 'Bad Script', cursive;
 	display: inline-block;
 	float: left;
 	width: 24%;
