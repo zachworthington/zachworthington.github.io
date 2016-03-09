@@ -11,7 +11,7 @@ PSeudo classes AFTER class it represents*/
 
 .wrapper{
 	background-color: #000 /*url("../images/bgblue.jpg") no-repeat center center fixed*/;
-    font-family: 'Arapey', sans-serif;
+    ont-family:"lucida grande", tahoma, verdana, arial, sans-serif;
     color: white;
 }
 .container { 
@@ -74,6 +74,7 @@ header p{
 	float: left;
 	width: 24%;
 	padding-top: 13%;
+	ont-family:"lucida grande", tahoma, verdana, arial, sans-serif;
 }
 header a{
 	text-decoration: none;
@@ -84,7 +85,7 @@ header a{
 }
 /*INDUSTRY NITCHES*/
 aside{
-	width: 30%;
+	width: 20%;
 	padding-left: 5%;
 }
 aside ul{
@@ -94,26 +95,23 @@ aside li{
 	margin:3% 1%;
 }
 /*DEMO BOX*/
-article{
-	width: 40%;
+#demos{
+	width: 60%;
 	text-align: center;
 }
 /*CLIENTS*/
+marquee{
+	background-color: gray;
+}
 #clients{
 	display: inline-block;
 	float: left;
-	width: 30%;
-	padding-right: 5%;
-}
-#clients img{
-	display: inline-block;
-	float: left;
-	border:3px groove black;
-	margin: 1%;
+	width: 19%;
+	padding-left: 15%;
 }
 #scroll{
 	display: inline-block;
-	float:right;
+	float:left;
 }
 footer{
 	background-color: rgba(139,139,138,.2);
@@ -121,7 +119,7 @@ footer{
 }
 h1, h2, h3{
 	text-transform: uppercase;
-	font-family: 'Pontano+Sans', sans-serif;
+	ont-family:"lucida grande", tahoma, verdana, arial, sans-serif;
 	color: white;
 }
 small p{
