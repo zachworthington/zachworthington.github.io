@@ -10,9 +10,9 @@
 PSeudo classes AFTER class it represents*/
 
 .wrapper{
-	background-color: #000 /*url("../images/bgblue.jpg") no-repeat center center fixed*/;
-    ont-family:"lucida grande", tahoma, verdana, arial, sans-serif;
-    color: white;
+	background-color: #000;
+    font-family:"Arapey", tahoma, verdana, arial, sans-serif;
+    color: #fff;
 }
 .container { 
 	/*TO KEEP NAV ON TOP*/
@@ -31,21 +31,34 @@ PSeudo classes AFTER class it represents*/
 	font-family: 'Bad Script', cursive;
 	font-size: 1.2em;
 	padding-left: 5%;
+	padding-right: 5%;
 }
 nav a{
-	font-size: 12px;
-	color: #E0E0E0;
+	color: #fff;
 	text-decoration: none;
 }
 nav ul{
 	font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
 	text-decoration: none;
 	list-style: none;
+	color: #fff;
 }
 nav li{
-	color: #fff;
 	padding: 0 1.5%;
 	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+}
+/*#email{
+	font-size: 14px;
+	color:white;
+	padding-left: 60%;
+}
+#phone{
+	font-size: 14px;
+	color: white;
+	padding-left: 5%;*/
+
 }
 #demos, aside{
 	float: left;
@@ -53,14 +66,15 @@ nav li{
 header{
     height: auto;
     padding: 1%;
-    text-align: center;
 }
 header h1{
 	font-family: 'Bad Script', cursive;
 	display: inline-block;
 	float: left;
 	width: 24%;
-	padding-top: 13%;
+	font-size: 3em;
+	text-align: right;
+	padding-top: 8%;
 }
 header img{
 	display: inline-block;
@@ -72,21 +86,24 @@ header img{
 header p{
 	display: inline-block;
 	float: left;
+	text-align: left;
 	width: 24%;
-	padding-top: 13%;
-	ont-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+	padding-top: 15%;
+	font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
 }
 header a{
 	text-decoration: none;
 	color: white;
 }
 #mainsection{
-	padding: 0 5%;
+	padding: 0 12%;
 }
 /*INDUSTRY NITCHES*/
 aside{
-	width: 20%;
+	width: 25%;
 	padding-left: 5%;
+		display: inline-block;
+	float: left;
 }
 aside ul{
 	list-style-position: inside;
@@ -98,16 +115,18 @@ aside li{
 #demos{
 	width: 60%;
 	text-align: center;
+	padding-left: 5%;
+	display: inline-block;
+	float: left;
 }
 /*CLIENTS*/
 marquee{
-	background-color: gray;
+	background-color: #000;
 }
 #clients{
 	display: inline-block;
 	float: left;
-	width: 19%;
-	padding-left: 15%;
+	width: 15%;
 }
 #scroll{
 	display: inline-block;
@@ -117,9 +136,8 @@ footer{
 	background-color: rgba(139,139,138,.2);
 	padding: 1% 2%;
 }
-h1, h2, h3{
-	text-transform: uppercase;
-	ont-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+h2{
+/*	text-transform: uppercase;*/
 	color: white;
 }
 small p{

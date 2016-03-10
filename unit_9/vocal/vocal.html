@@ -1,39 +1,111 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-	<title></title>
+	<title>Wendy Remington</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../reset.css" >
 </head>
+
+<nav>
+	<div class="container">
+		<ul>
+			<li id="name">Wendy Remington</li>
+			<li><a href="../index.html">Voice-Over</a></li>
+			<li>
+			<a href="vocal.html">Vocal Artist</a></li>
+			<li>
+			<a href="bio/bio.html">Bio</a></li>
+			<li>
+			<a href="resume/resume.html">Resume</a></li>
+			<li><a id="email" href="mailto:BookMe@wendyremington.com">BookMe@wendyremington.com</a>
+			</li>
+			<li id="phone">415.307.2314</li>
+		</ul>
+	</div>	
+</nav>
+
 <body>
-<script>
+<div class="wrapper"> <!-- classes repeat multiple times -->
+	
+	<header class="clearfix">
+		
+		<h1><a href="index.html">Wendy<br>Remington</a></h1>
 
-    // Enter your account ID. You can find this under the Menu item: Help | About 
-    var ACCOUNT_ID = 'c15780b6-37bc-4c0a-a86a-658dd5110fbc';
+		<img src="../images/wendyedited-001.jpg" alt="Wendy Headshot" height="380" width="auto">
+		
+	</header>
 
-    // Enter the title of this page. Clicks will appear in your Zamtistics
-    var PAGE_NAME = 'Demos page for Wendy Remington';
+	<div class="clearfix" id="mainsection">
+		
+		<aside>
+			<h2>Industry Niches</h2><br>
+			<ul>
+				<li>Radio</li>
+				<li>Narration</li>
+				<li>Business</li>
+				<li>Documentaries</li>
+				<li>Educational</li>
+				<li>IVR</li>
+				<li>Telephone/On Hold</li>
+				<li>Audio Books</li>
+			</ul>
+		</aside>
 
-    // NOTE: value can be either 'inline' OR 'popup'
-    var RENDER_MODE = 'inline';
+		<article id="demos"> 
+			<!-- <h2>Voice-Over</h2> -->
+			<script>
+			    var ACCOUNT_ID = 'c15780b6-37bc-4c0a-a86a-658dd5110fbc';
+			    var PAGE_NAME = 'Demos page for Wendy Remington';
+			    var RENDER_MODE = 'inline';
+			    var DEFAULT_DEMO = 4476 ;
+			    var AUTO_PLAY = true;
+			    var SHOW_CONTACTS = true;
+			</script>
+			<script src="http://www.voicezam.com/clientScripts/FixedScript.js"></script>
+			<script src="http://www.voicezam.com/clientScripts/WebLinking2.aspx"></script>
+			<div id="voiceDemos"></div>
+		</article>
 
-    // Enter a Demo ID for the default demo to display when the player launches
-    // NOTE: Demo ID's can be by found in the Showcase by clicking the
-    //   gear icon for a specific Demo
-    var DEFAULT_DEMO = null ;  //  Use Account Default ;
+		<div id="pastclients">
+			<h2>Past clients</h2>
+			<div id="scroll" style="width: 125px; height: text-align:left; box-shadow: 0px 0px 0px 0px #C0C0C0; background: #000; padding: 0px;">
+			<marquee onmouseover='this.stop();' onmouseout='this.start();' direction="down" height="200" scrollamount="4"> 
 
-    //Handle AutoPlay On PageLoad
-    var AUTO_PLAY = false;
+			<div id="picture scroll"> <a href="#" rel="nofollow" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/American_Express_logo.svg/2000px-American_Express_logo.svg.png" width="125" height="125" alt="scrolling vertical image marquee" /> </a></div> 
 
-    //Option to show contacts button in player
-    var SHOW_CONTACTS = true;
+			<div id="picture scroll"><br/><a href="#" rel="nofollow" target="_blank"><img src="https://media.glassdoor.com/sqll/1723/office-depot-squarelogo.png" alt="Office Depot" width="125" height="125" alt="#" /></a></div> 
 
-</script>
+			<div id="picture scroll"><br/><a href="#" rel="nofollow" target="_blank"><img src="http://iconbug.com/data/d0/512/3f66b278202d0f51bd9e74d680d67953.png" width="125" height="125" alt="free html codes" /></a></div> 
 
-<script src="//www.voicezam.com/clientScripts/FixedScript.js"></script>
-<script src="//www.voicezam.com/clientScripts/WebLinking2.aspx"></script>
+			<div id="picture scroll"><br/><a href="#" rel="nofollow" target="_blank"><img src="http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0021/6847/brand.gif?itok=KNALbaPN" width="125" height="125" alt="Image Scrolling" /></a></div>
 
-<div id="voiceDemos"></div>
+			<div id="picture scroll"><br/><a href="#" rel="nofollow" target="_blank"><img src="http://seeklogo.com/images/W/Wyndham-logo-0B2F70898B-seeklogo.com.gif" width="125" height="125" alt="Image Scrolling" /></a></div>
 
+			<div id="picture scroll"><br/><a href="#" rel="nofollow" target="_blank"><img src="http://11284-presscdn-0-40.pagely.netdna-cdn.com/wp-content/uploads/2011/10/rite%20aid%20logo.jpg" width="125" height="125" alt="Image Scrolling" /></a></div>
+
+			<div id="picture scroll"><br/><a href="#" rel="nofollow" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gap_logo.svg/2000px-Gap_logo.svg.png" width="125" height="125" alt="Image Scrolling" /></a></div> </marquee> </div>
+		</div>
+	</div>
+                
+	<footer> 
+		<small><p>&copy; 2016 Wendy Remington</p></small>
+	</footer>
+
+</div>
 </body>
 </html>
+
+				<!-- <div id="clients">
+					<h3>Past clients include:</h3>
+				
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/American_Express_logo.svg/2000px-American_Express_logo.svg.png" width="80" height="80">
+				<img src="https://media.glassdoor.com/sqll/1723/office-depot-squarelogo.png" alt="Office Depot" width="80" height="80">
+				<img src="http://iconbug.com/data/d0/512/3f66b278202d0f51bd9e74d680d67953.png" alt="Apple" width="80" height="80">
+				<img src="http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0021/6847/brand.gif?itok=KNALbaPN" alt="Air Canada" width="80" height="80">
+				<img src="http://seeklogo.com/images/W/Wyndham-logo-0B2F70898B-seeklogo.com.gif" alt="Wyndham" width="80" height="80">
+				<img src="http://11284-presscdn-0-40.pagely.netdna-cdn.com/wp-content/uploads/2011/10/rite%20aid%20logo.jpg" alt="Rite-Aid" width="80" height="80">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gap_logo.svg/2000px-Gap_logo.svg.png" alt="Gap" width="80" height="80">	
+				</div> -->
 
 
