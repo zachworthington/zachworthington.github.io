@@ -9,10 +9,16 @@
 /*semantics, first, then classes together, then id's together
 PSeudo classes AFTER class it represents*/
 
+body{
+	background-color: #000;
+}
 .wrapper{
 	background-color: #000;
+	max-width: 1200px;
     font-family:"Arapey", tahoma, verdana, arial, sans-serif;
     color: #fff;
+    margin: 0 auto; /*(KEEPS CONTAINED ON BIG SCREEN)*/
+
 }
 .container { 
 	/*TO KEEP NAV ON TOP*/
@@ -64,10 +70,16 @@ nav li{
 	float: left;
 }
 header{
+    background-image: url("../images/wendyedited-001.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
     padding: 1%;
+    height: 450px;
+    color: black;
 }
-header h1{
+header h1,p{
 	font-family: 'Bad Script', cursive;
 	display: inline-block;
 	float: left;
@@ -84,19 +96,20 @@ header img{
 	margin:0 1%;
 }
 header p{
-	display: inline-block;
+/*	display: inline-block;
 	float: left;
 	text-align: left;
 	width: 24%;
-	padding-top: 15%;
+	padding-top: 15%;*/
+	font-size: 1em;
 	font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
 }
 header a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 #mainsection{
-	padding: 0 0;
+	padding: 2%;
 }
 /*INDUSTRY NITCHES*/
 aside{

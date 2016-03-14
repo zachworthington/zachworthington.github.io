@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+@import url(https://fonts.googleapis.com/css?family=Arapey);
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+* { margin:0; padding:0; box-sizing:border-box;}
+
+/*GENERAL->SPECIFIC!*/
+/*semantics, first, then classes together, then id's together
+PSeudo classes AFTER class it represents*/
+
+body{
+	background-color: #000;
+}
+.wrapper{
+	background-color: #000;
+	max-width: 1200px;
+    font-family:"Arapey", tahoma, verdana, arial, sans-serif;
+    color: #fff;
+    margin: 0 auto; /*(KEEPS CONTAINED ON BIG SCREEN)*/
+}
+.container { 
+	/*TO KEEP NAV ON TOP*/
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	padding: 1% .5% 4% .5%;
+	display: inline-block;
+}
+#name{
+	font-family: 'Bad Script', cursive;
+	font-size: 1.5em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+nav a{
+	color: #fff;
+	text-decoration: none;
+}
+nav ul{
+	font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+}
+nav li{
+	padding: 0 1.5%;
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+}
+
+header{
+    background-image: url("../images/wendyedited-002.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 1%;
+    height: 400px;
+    color: black;
+}
+header a{
+	text-decoration: none;
+	color: #fff;
+}
+/*#bigname{
+	display: inline-block;
+	float: right;
+	font-family: 'Bad Script', cursive;
+	font-size: 1.2em;
+	margin: 5% 5% 0 0;
+	padding: 1%;
+	background-color: rgba(139,139,138,.2);
+	border-radius: 15px;
+}*/
+#bookme{
+	display: inline-block;
+	float: left;
+	color: #FFF;
+	margin: 11% 0 0 5%;
+	font-size: 1.5em; 
+	background-color: rgba(0,0,0,.6);
+	border-radius: 5px;
+	padding: .5%;
+}
+#mainsection{
+	width: auto;
+	height: auto;
+}
+/*INDUSTRY NITCHES*/
+aside{
+	width: 25%;
+	display: inline-block;
+	float: left;
+}
+aside ul{
+	list-style-position: inside;
+}
+aside li{
+	padding: 2%;
+}
+/*DEMO BOX*/
+script{
+	height: 20px;
+}
+#demos{
+	height: auto;	
+	width: 35%;
+	display: inline-block;
+	float: left;
+}
+/*CLIENTS*/
+#pastclients{
+	display: inline-block;
+	float: left;
+	width: auto;
+}
+marquee{
+	background-color: #000;
+}
+footer{
+	background-color: rgba(139,139,138,.2);
+	padding: 1% 2%;
+}
+small p{
+	font-size: 1.25em;
+	color: #FFF;
+	text-align: center;
+	width: auto;
+}
+a:hover{
+	background-color: #aaaaaa;
+	text-decoration: none;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 972px) {
+/*header img{
+	border-radius: 8px;
+}
+nav{
+	float: none;
+	width:100%;
+	margin-bottom: 1%;
+	border-radius: 8px;
+}
+nav li{
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 1%;
+}
+article{
+	width: 70%;
+}
+aside{
+	width: 29%;
+}
+
+@media only screen and (max-width: 841px) {
+	header img{
+		width:100%;
+		height:80%;
+		float: left;
+		border-radius: 8px;
+	}
+	aside{
+		font-size: .75em;
+	}
+	.wrapper{
+		width: auto;
+	}
+	footer{
+		width: auto;
+	}
+	footer img{
+		width: 3em;
+		height: 3em;
+	}
+}
+@media only screen and (max-width: 687px) {
+	.headertext h1{
+		font-size: 24px;
+	}
+	nav{
+		font-size: 10px;
+		
+	}
+	header{
+		background-position: top;
+	}
+	aside{
+		font-size: .75em;
+	}
+}
+@media only screen and (max-width: 635px) {
+	aside, article{
+		border-radius: 8px;
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+	aside{
+		margin-top: 1%;
+	}
+}
+@media only screen and (max-width: 535px) {
+nav li{
+	float: none;
+	display: block;
+	width: 100%;
+	min-height: 48px;
+	}*/
+}
+
+
+/* Q's
+create logo bar for bottom?
