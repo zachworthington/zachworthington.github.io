@@ -92,26 +92,32 @@ header a{
 #mainsection{
 	width: auto;
 	height: auto;
+	padding-top: 1%;
 }
 /*INDUSTRY NITCHES*/
 aside{
-	width: 25%;
+	width: 35%;
 	display: inline-block;
 	float: left;
+	padding-left: 10%;
 }
 aside ul{
 	list-style-position: inside;
+
 }
 aside li{
-	padding: 2%;
+	padding:2% 0 0 10%;
 }
 /*DEMO BOX*/
-script{
-	height: 20px;
+iframe#ZAMPLAYER_IFRAME_MEDIAZAM{
+	height: 450px !important;
+	width: 600px !important;
+	margin-bottom: 2em;
+	padding: 2%;
 }
 #demos{
 	height: auto;	
-	width: 35%;
+	width: 40%;
 	display: inline-block;
 	float: left;
 }
@@ -119,7 +125,7 @@ script{
 #pastclients{
 	display: inline-block;
 	float: left;
-	width: auto;
+	width: 15%;
 }
 marquee{
 	background-color: #000;
