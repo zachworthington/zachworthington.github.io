@@ -1,8 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Oxygen);
-@import url(https://fonts.googleapis.com/css?family=Arapey);
+/*@import url(https://fonts.googleapis.com/css?family=Oxygen);
 @import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Oswald);*/
+
+@import url(https://fonts.googleapis.com/css?family=Arapey);
 @import url(https://fonts.googleapis.com/css?family=Bad+Script);
+
 * { margin:0; padding:0; box-sizing:border-box;}
 
 /*GENERAL->SPECIFIC!*/
@@ -15,7 +17,7 @@ body{
 .wrapper{
 	background-color: #000;
 	max-width: 1000px;
-    font-family:"Arapey", tahoma, verdana, arial, sans-serif;
+    font-family: 'Arapey', serif;
     color: #fff;
     margin: 0 auto; /*(KEEPS CONTAINED ON BIG SCREEN)*/
 }
@@ -113,8 +115,7 @@ aside li{
 iframe#ZAMPLAYER_IFRAME_MEDIAZAM{
 	height: 350px !important;
 	width: 600px !important;
-	margin-bottom: 2em;
-	padding: 2%;
+	padding-left: 5%;
 }
 #demos{
 	height: auto;	
