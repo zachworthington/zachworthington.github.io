@@ -14,7 +14,7 @@ body{
 }
 .wrapper{
 	background-color: #000;
-	max-width: 1200px;
+	max-width: 1000px;
     font-family:"Arapey", tahoma, verdana, arial, sans-serif;
     color: #fff;
     margin: 0 auto; /*(KEEPS CONTAINED ON BIG SCREEN)*/
@@ -62,7 +62,7 @@ header{
     background-size: cover;
     height: auto;
     padding: 1%;
-    height: 400px;
+    height: 350px;
     color: black;
 }
 header a{
@@ -106,11 +106,12 @@ aside ul{
 
 }
 aside li{
+	font-size: 1.25em;
 	padding:2% 0 0 10%;
 }
 /*DEMO BOX*/
 iframe#ZAMPLAYER_IFRAME_MEDIAZAM{
-	height: 450px !important;
+	height: 350px !important;
 	width: 600px !important;
 	margin-bottom: 2em;
 	padding: 2%;
